@@ -1,6 +1,6 @@
 # One post a year
 
-The one-post-per-year theme is an extremely lightweight theme for [Hugo](https://gohugo.io). It's built with simplicity and speed in mind.
+The one-post-a-year theme is an extremely lightweight theme for [Hugo](https://gohugo.io). It's built with simplicity and speed in mind.
 
 🌏 [Demo site](https://jpanther.github.io/congo/)  
 🐛 [Bug reports & issues](https://github.com/jarv/one-post-per-year/issues)
