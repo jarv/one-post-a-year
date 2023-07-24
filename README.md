@@ -6,7 +6,7 @@ The one-post-per-year theme is an extremely lightweight theme for [Hugo](https:/
 🐛 [Bug reports & issues](https://github.com/jarv/one-post-per-year/issues)
 
 ## Features
-| Feature | One post a year | A good typical good theme for productive bloggers |
+| Feature | One post a year | A typical good theme for productive bloggers |
 | --- | --- | --- |
 | Support for links, text, tables, [GOAT diagrams](https://gohugo.io/content-management/diagrams/) and everything Hugo supports out-of-the-box | ✔️ | ✔️ | 
 | Automatic image resizing using Hugo Pipes | ✔️ | ✔️ | 
