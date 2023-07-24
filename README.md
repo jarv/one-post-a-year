@@ -33,7 +33,6 @@ The one-post-a-year theme is an extremely lightweight theme for [Hugo](https://g
 
 ## Documentation
 
-Congo has [extensive documentation](https://jpanther.github.io/congo/docs/) that covers all aspects of the theme. Be sure to [read the docs](https://jpanther.github.io/congo/docs/) to learn more about how to use the theme and its features.
 
 ---
 
