@@ -2,6 +2,9 @@
 
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
+🌏 [Demo site](https://jarv.github.io/one-post-a-yar/)
+🐛 [Bug reports & issues](https://github.com/jarv/one-post-per-year/issues)
+
 Are you starting a tech blog that will probably have posts like this?
 
 <img width="862" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b686539f-f5a1-48ad-9299-6e2e9866014c">
@@ -17,9 +20,6 @@ So you might ask, what makes this theme so special?
 - Maybe you like social media icons? Nothing like that here so if so this is probably not the theme for you.
 - Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
 - RSS feed shows the full article
-
-🌏 [Demo site](https://jarv.github.io/one-post-a-yar/)
-🐛 [Bug reports & issues](https://github.com/jarv/one-post-per-year/issues)
 
 ## Documentation
 
