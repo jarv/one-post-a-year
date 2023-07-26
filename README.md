@@ -24,10 +24,11 @@ So you might ask, what makes this theme so special?
 
 ### Quick start using Hugo
 
-> **Note:** Ensure you have **Go** and **Hugo** installed, and that you have created a new Hugo project before proceeding.
-
-1. From your project directory, initialise Hugo Modules:
-
-   ```shell
-   hugo mod init github.com/<username>/<repo-name>
-   ```
+```bash
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/jarv/one-post-a-year.git themes/one-post-a-year
+echo "theme = 'one-post-a-year'" >> hugo.toml
+hugo server
+```
