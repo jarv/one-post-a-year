@@ -3,8 +3,9 @@
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
 Are you starting a tech blog that will probably have posts like this?
+If so, then this might be the perfect theme for you!
 
-Then this might be the perfect theme for you! What makes this theme so special?
+So you might ask, what makes this theme so special?
 
 - Some themes have summaries on the main page, you probably don't have time to write a long post anyway so there is none of that, just the links.
 - Like summaries, most themes have some sort of pagination but that isn't necessary here
