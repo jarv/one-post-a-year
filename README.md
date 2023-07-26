@@ -2,12 +2,12 @@
 
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
-🌏 [Demo site](https://jarv.github.io/one-post-a-yar/)
+🌏 [Demo site](https://jarv.github.io/one-post-a-year/)
 🐛 [Bug reports & issues](https://github.com/jarv/one-post-per-year/issues)
 
 Are you starting a tech blog that will probably have posts like this?
 
-<img width="862" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b686539f-f5a1-48ad-9299-6e2e9866014c">
+<a href="https://jarv.github.io/one-post-a-year/"><img width="862" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b686539f-f5a1-48ad-9299-6e2e9866014c"></a>
 
 If so, then this might be the perfect theme for you!
 
