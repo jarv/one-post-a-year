@@ -1,28 +1,23 @@
 # One post a year
 
-The one-post-a-year theme is an extremely lightweight theme for [Hugo](https://gohugo.io). It's built with simplicity and speed in mind.
+The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
 Are you starting a tech blog that will probably have posts like this?
 
 Then this might be the perfect theme for you! What makes this theme so special?
 
-- Some themes have summaries on the main page, you probably don't have time to write a long post anyway so the main page doesn't bother
-- Dates are nice, but pretty much useless if you have only a few posts on the main page.
-- Only uses semantic html tags, so it feels pretty modern.
-- Maybe you you think people will click on social media icons? Yeah, probably not so this theme doesn't have them.
-- Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font making it very accessible and easy to read.
-- Some themes have pagination for articles, thinking that very productive people will write a bazillion articles and require it. Obviously that is not the case with this theme.
-- The best way to consume blog content is still with an RSS feeder so the RSS feed shows the full article.
+- Some themes have summaries on the main page, you probably don't have time to write a long post anyway so there is none of that, just the links.
+- Like summaries, most themes have some sort of pagination but that isn't necessary here
+- Limited use of dates next to articles because it's probably not something you want to highlight.
+- Only uses semantic html tags, so yeah, it is pretty modern.
+- Maybe you like social media icons? Nothing like that here so if so this is probably not the theme for you.
+- Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
+- RSS feed shows the full article
 
-🌏 [Demo site](https://jpanther.github.io/congo/)
+🌏 [Demo site](https://jarv.github.io/one-post-a-yar/)
 🐛 [Bug reports & issues](https://github.com/jarv/one-post-per-year/issues)
 
 ## Documentation
-
----
-
-## Inspiration
-
 
 ### Quick start using Hugo
 

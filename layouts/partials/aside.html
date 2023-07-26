@@ -1,0 +1,23 @@
+<aside>
+  <section id="time">
+  {{ if .Params.showthedate | default true }}
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+  {{ end }}
+  </section>
+  <section id="tags">
+  <ul>
+    <li>
+    </li>
+    {{ if .Params.tags }}
+    <li>
+      <em>
+        {{ range $i, $t := .Params.tags }}
+        {{ if $i }}/{{ end }}
+        <a href="{{ relLangURL ( printf "tags/%s" ( $t | urlize ) ) }}">#{{ $t }}</a>
+        {{ end }}
+      </em>
+    </li>
+    {{ end }}
+  </ul>
+  </section>
+</aside>

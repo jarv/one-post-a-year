@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section id="list">
+    {{ if eq .Data.Singular "tag" }}
+        <h1>#{{ .Title | lower }}</h1>
+    {{ else }}
+        <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ range .Data.Pages }}
+    <ul>
+      <li>
+      <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+      </li>
+    </ul>
+    {{ end }}
+</section>
+
+{{ end }}

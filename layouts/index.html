@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section id="list">
+<h1>Articles</h1>
+<ul>
+{{ $pages := where site.RegularPages "Type" "posts" }}
+{{ range $pages }}
+<li>
+<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+</li>
+{{ end }}
+</ul>
+</section>
+{{ end }}
