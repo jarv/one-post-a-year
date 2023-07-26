@@ -3,6 +3,9 @@
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
 Are you starting a tech blog that will probably have posts like this?
+
+<img width="862" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b686539f-f5a1-48ad-9299-6e2e9866014c">
+
 If so, then this might be the perfect theme for you!
 
 So you might ask, what makes this theme so special?
