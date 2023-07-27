@@ -16,7 +16,7 @@ So you might ask, what makes this theme so special?
 - Like summaries, most themes have some sort of pagination but that isn't necessary here
 - Limited use of dates next to articles because it's probably not something you want to highlight.
 - Only uses semantic html tags, so yeah, it is pretty modern.
-- Maybe you like social media icons? Nothing like that here so if so this is probably not the theme for you.
+- Maybe you like social media icons? Nothing like that here, so if you like that stuff this is probably not the theme for you.
 - Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
 - RSS feed shows the full article
 
