@@ -36,4 +36,4 @@ echo "theme = 'one-post-a-year'" >> hugo.toml
 hugo server
 ```
 --- 
-Why? I use this for my own site [jarv.org](https://jarv.org)
+Why? I use this for my own site [jarv.org](https://jarv.org) which sometimes occasionally has more than one update in a year.
