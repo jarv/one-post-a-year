@@ -1,13 +1,13 @@
 
 @font-face {
   font-family: atkinson;
-  src: url('{{ .Site.BaseURL | default "/" }}font/AtkinsonHyperlegible-Regular.woff2');
+  src: url('{{ .Site.BaseURL | default "/" }}/font/AtkinsonHyperlegible-Regular.woff2');
   font-display: block;
 }
 
 @font-face {
   font-family: atkinson;
-  src: url('{{ .Site.BaseURL | default "/" }}font/AtkinsonHyperlegible-Bold.woff2');
+  src: url('{{ .Site.BaseURL | default "/" }}/font/AtkinsonHyperlegible-Bold.woff2');
   font-weight: bold;
   font-display: block;
 }
