@@ -35,3 +35,5 @@ git submodule add https://github.com/jarv/one-post-a-year.git themes/one-post-a-
 echo "theme = 'one-post-a-year'" >> hugo.toml
 hugo server
 ```
+--- 
+Why? I use this for my own site [jarv.org](https://jarv.org)
