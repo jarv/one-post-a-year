@@ -6,4 +6,4 @@
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-{{ with resources.Get "css/styles.css" }}<style>{{ .Content | safeCSS }}</style>{{ end }}
+<style>{{ partial "styles.css" | safeCSS }}</style>
