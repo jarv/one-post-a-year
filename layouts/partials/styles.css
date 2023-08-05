@@ -85,7 +85,7 @@ header {
 
 header a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 header section#title {
@@ -102,6 +102,10 @@ header section#title-links {
 @media only screen and (width <= 800px) {
   header {
     flex-direction: column;
+  }
+
+  header a {
+    font-size: 1.4em;
   }
 
   header section#title {
