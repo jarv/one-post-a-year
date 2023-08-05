@@ -24,7 +24,7 @@ So you might ask, what makes this theme so special?
 
 Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/swyx/100-bytes-of-css-to-look-great-everywhere-19pd)
 
-<img alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/0308c1ae-8fcf-4a4d-b023-e6b605705acf">
+[<img src="https://user-images.githubusercontent.com/749175/258576133-0308c1ae-8fcf-4a4d-b023-e6b605705acf.png">](https://pagespeed.web.dev/analysis/https-jarv-github-io-one-post-a-year/zdnrq0g8n3?form_factor=mobile)
 
 ## Documentation
 
