@@ -31,10 +31,10 @@ Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/sw
 
 ## Screenshots
 
-| Theme | Screenshot |
-| --- | -- |
-| ⬜️ Light | <img width="600" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b6fd30ae-b35a-40fe-8621-1a9c52b2a458"> |
-| ⬛️ Dark  | <img width="600" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/9016c2c3-778c-4ee5-85d4-98e65775017c"> |
+<table>
+<tr><td>⬜️ Light</td><td><img width="600" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b6fd30ae-b35a-40fe-8621-1a9c52b2a458"></td></tr>
+<tr><td>⬛️ Dark</td><td><img width="600" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/9016c2c3-778c-4ee5-85d4-98e65775017c"></td></tr>
+</table>
 
 ## Documentation
 
