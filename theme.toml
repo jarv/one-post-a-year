@@ -8,7 +8,7 @@ description = ""
 homepage = "http://github.com/jarv/one-post-a-year"
 tags = []
 features = []
-min_version = "0.115.2"
+min_version = "0.111.0"
 
 [author]
   name = "John Jarvis"
