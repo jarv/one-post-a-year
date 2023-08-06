@@ -5,11 +5,11 @@ slug = "cloudflare-with-github-pages"
 tags = ["blog"]
 +++
 
-# My Experience with Using Cloudflare and GitHub Pages
+## My Experience with Using Cloudflare and GitHub Pages
 
 I recently decided to enhance my website's performance and security by putting Cloudflare in front of my GitHub Pages site. It was a game-changer!
 
-With Cloudflare acting as a reverse proxy, my content gets cached and distributed globally through its powerful CDN. The result? Lightning-fast load times for my visitors, regardless of their location.
+> With Cloudflare acting as a reverse proxy, my content gets cached and distributed globally through its powerful CDN. The result? Lightning-fast load times for my visitors, regardless of their location.
 
 Moreover, Cloudflare's robust DDoS protection and security features give me peace of mind, keeping my GitHub Pages site safe from potential threats.
 

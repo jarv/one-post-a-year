@@ -5,15 +5,15 @@ slug = "new-new-blog"
 tags = ["blog"]
 +++
 
-# Migrating My Blog from Pelican to Hugo
+## Migrating My Blog from Pelican to Hugo
 
 I recently decided to migrate my blog from Pelican to Hugo, seeking a more user-friendly experience and a vibrant ecosystem of themes and plugins.
 
-## Why I Chose Hugo?
+### Why I Chose Hugo?
 
-Hugo's simplicity and speed were major attractions. Its native support for Markdown and easy configuration made the transition seamless.
+> Hugo's simplicity and speed were major attractions. Its native support for Markdown and easy configuration made the transition seamless.
 
-## Migration Process
+### Migration Process
 
 1. **Backing Up Content**: I first backed up my Pelican blog's content, ensuring no data was lost.
 
@@ -31,7 +31,7 @@ Hugo's simplicity and speed were major attractions. Its native support for Markd
 
 8. **Deploying**: Once satisfied, I deployed my Hugo blog to my hosting provider.
 
-## Conclusion
+### Conclusion
 
 The migration from Pelican to Hugo exceeded my expectations. Hugo's speed and user-friendliness have reinvigorated my blogging experience, and I look forward to exploring its rich ecosystem of themes and plugins.
 

@@ -5,15 +5,17 @@ slug = "new-blog"
 tags = ["blog"]
 +++
 
-# Migrating from WordPress to Pelican - My Journey
+## Migrating from WordPress to Pelican - My Journey
 
-I recently embarked on a thrilling journey of migrating my blog from WordPress to Pelican. The decision to switch to Pelican, a static site generator, was fueled by the desire for better performance and simplicity in managing my content.
+I recently embarked on a thrilling journey of migrating my blog from WordPress to Pelican.
 
-## Why Pelican?
+> The decision to switch to Pelican, a static site generator, was fueled by the desire for better performance and simplicity in managing my content.
+
+### Why Pelican?
 
 Pelican's appeal lies in its efficiency and ease of use. Unlike WordPress, which relies on a database and server-side processing, Pelican generates static HTML files, leading to faster page load times and reduced server load. Additionally, Pelican's lightweight nature eliminates the need for constant updates and security patches.
 
-## My Migration Experience
+### My Migration Experience
 
 The migration process was surprisingly straightforward. I followed these key steps:
 
@@ -33,7 +35,7 @@ The migration process was surprisingly straightforward. I followed these key ste
 
 8. **Setting Up Hosting**: I chose a hosting provider that supports static websites and deployed my Pelican-powered blog.
 
-## Conclusion
+### Conclusion
 
 The migration from WordPress to Pelican was truly rewarding. I now have a faster and more secure blog, and the simplicity of working with static files makes managing my content a breeze. If you're considering a change from WordPress and value performance and ease of use, Pelican might be the perfect fit for your next blogging adventure.
 
