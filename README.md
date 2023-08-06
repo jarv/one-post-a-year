@@ -24,6 +24,7 @@ So you might ask, what makes this theme so special?
 - Only uses semantic html tags, so yeah, it is pretty modern.
 - Maybe you like social media icons? Nothing like that here, so if you like that stuff this is probably not the theme for you.
 - Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
+- Light and Dark theme
 - RSS feed shows the full article
 
 Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/swyx/100-bytes-of-css-to-look-great-everywhere-19pd)
