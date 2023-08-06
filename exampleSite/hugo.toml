@@ -25,5 +25,5 @@ pygmentsCodeFences = true
     noHl = false
     # https://xyproto.github.io/splash/docs/longer/all.html
     # style = 'github'
-    style = 'solarized-dark'
+    # style = 'solarized-dark'
     tabWidth = 4
