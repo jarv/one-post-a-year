@@ -7,15 +7,30 @@ tags = ["blog"]
 
 ## Redesigning My Hugo Blog for Simplicity and Discoverability
 
-```bash
-for a in simple blog; do
-  echo $a
-done
-```
-
 Redesigning my Hugo blog has been an exciting journey towards creating a more appealing and discoverable platform for my readers.
 
 > By embracing simplicity in styling and optimizing for better discoverability, I aim to make a lasting impact on my audience.
+
+Here is what code blocks look like:
+
+```bash
+for a in simple blog; do
+  echo $a
+  echo "this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long line"
+done
+```
+
+Of course there is both *italicized* and **bold** text.
+
+```
+Here is the default
+multi-line
+pre-formatted text block
+without a language
+```
+
+And here is `what inline pre-formatted text looks like`.
+
 
 ### Simplify Styling
 

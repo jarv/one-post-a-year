@@ -21,8 +21,9 @@ pygmentsCodeFences = true
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
-    noClasses = true
+    noClasses = false
     noHl = false
     # https://xyproto.github.io/splash/docs/longer/all.html
-    style = 'github'
+    # style = 'github'
+    style = 'solarized-dark'
     tabWidth = 4

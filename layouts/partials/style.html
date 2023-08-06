@@ -1,4 +1,5 @@
 <style>
+{{ partial "chromastyles.github.css" . | safeCSS }}
 @font-face {
   font-family: atkinson;
   src: url('{{ .Site.BaseURL | default "/" }}/font/AtkinsonHyperlegible-Regular.woff2');
@@ -14,7 +15,7 @@
 
 
 h1,h2,h3,h4,h5,h6 {
-  margin: 1em 0;
+  margin: .5em 0;
 }
 
 main h1 {
@@ -178,18 +179,17 @@ main article > pre {
 
 /* code hilights */
 
-main article .highlight pre {
+div.highlight pre {
+  white-space: pre-wrap;
   overflow-x: auto;
   font-size: .8em;
   padding: .8em;
 }
 
-main article p code {
-    font-weight: bold;
-    background-color: #e1e1e1;
-    border-radius: 0.5ch;
-    padding-left: 0.3ch;
-    padding-right: 0.3ch;
+/* inline code pre-formatted text */
+p > code {
+  padding: .2ch;
+  background-color: white;
 }
 
 /* blockquote */
@@ -229,17 +229,39 @@ blockquote::after {
 }
 
 @media (prefers-color-scheme: dark) {
+  {{ partial "chromastyles.solarized-dark.css" . | safeCSS }}
   html {
     background-color: #333;
     color: #ddd;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #eee;
   }
 
   a {
     color: #8cc2dd;
+  }
+
+  /* inline code pre-formatted text */
+  p > code {
+    background-color: #002b36;
+    color: #93a1a1;
+  }
+
+  /* code highlights */
+
+  div.highlight pre {
+  }
+
+  blockquote {
+    background-color: #002b36;
+    color: #ddd;
   }
 }
 </style>
