@@ -2,13 +2,17 @@
 
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
-**These theme is feature complete!** If you want to add any features to it, please fork.
+**These theme is feature complete!** If you want to add any features to it, please fork. 
 
-🌏 [Demo site](https://jarv.github.io/one-post-a-year/)
+- Looking for a similar lightweight theme that is more actively maintained? Check out [hugo-bearblog](https://github.com/janraasch/hugo-bearblog/tree/master).
+- Looking for a full-featured Hugo theme that has everything? Check out [congo](https://github.com/jpanther/congo).
+
+[Demo site](https://jarv.github.io/one-post-a-year/)
+
 
 Are you starting a tech blog or already have one that has posts like this?
 
-<img width="862" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b686539f-f5a1-48ad-9299-6e2e9866014c">
+[<img width="600" alt="image" src="https://user-images.githubusercontent.com/749175/256344995-b686539f-f5a1-48ad-9299-6e2e9866014c.png">](https://jarv.github.io/one-post-a-year/)
 
 If so, then this might be the perfect theme for you!
 
@@ -23,6 +27,8 @@ So you might ask, what makes this theme so special?
 - RSS feed shows the full article
 
 Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/swyx/100-bytes-of-css-to-look-great-everywhere-19pd)
+
+[<img src="https://user-images.githubusercontent.com/749175/258576133-0308c1ae-8fcf-4a4d-b023-e6b605705acf.png">](https://pagespeed.web.dev/analysis/https-jarv-github-io-one-post-a-year/zdnrq0g8n3?form_factor=mobile)
 
 ## Documentation
 
