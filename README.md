@@ -2,9 +2,13 @@
 
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
-**These theme is feature complete!** If you want to add any features to it, please fork.
+**These theme is feature complete!** If you want to add any features to it, please fork. 
 
-🌏 [Demo site](https://jarv.github.io/one-post-a-year/)
+- Looking for a similar lightweight theme that is more actively maintained? Check out [hugo-bearblog](https://github.com/janraasch/hugo-bearblog/tree/master).
+- Looking for a full-featured Hugo theme that has everything? Check out [congo](https://github.com/jpanther/congo).
+
+[Demo site](https://jarv.github.io/one-post-a-year/)
+
 
 Are you starting a tech blog or already have one that has posts like this?
 
