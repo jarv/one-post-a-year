@@ -2,7 +2,7 @@
 title = "Info on the latest redesign"
 date = "2022-06-17"
 slug = "new-new-new-blog"
-tags = ["blog"]
+tags = ["blog", "a-longer-tag", "one-more"]
 +++
 
 ## Redesigning My Hugo Blog for Simplicity and Discoverability

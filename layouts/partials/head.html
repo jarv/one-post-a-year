@@ -6,4 +6,10 @@
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-{{ partial "style.html" . }}
+<style>
+  {{ partial "chromastyles.github.css" . | safeCSS }}
+  @media (prefers-color-scheme: light) {
+    {{ partial "chromastyles.solarized-dark.css" . | safeCSS }}
+  }
+</style>
+<style>{{ partial "style.css" . | safeCSS }}</style>
