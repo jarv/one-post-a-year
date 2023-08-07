@@ -263,7 +263,7 @@ blockquote::after {
   }
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   html {
     background-color: #333;
     color: #ddd;
