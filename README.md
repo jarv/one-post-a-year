@@ -2,17 +2,14 @@
 
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
-**These theme is feature complete!** If you want to add any features to it, please fork.
-
 - Looking for a similar lightweight theme that is more actively maintained? Check out [hugo-bearblog](https://github.com/janraasch/hugo-bearblog/tree/master).
 - Looking for a full-featured Hugo theme that has everything? Check out [congo](https://github.com/jpanther/congo).
 
 [Demo site](https://jarv.github.io/one-post-a-year/)
 
-
 Are you starting a tech blog or already have one that has posts like this?
 
-[<img width="600" alt="image" src="https://user-images.githubusercontent.com/749175/256344995-b686539f-f5a1-48ad-9299-6e2e9866014c.png">](https://jarv.github.io/one-post-a-year/)
+[<img width="600" alt="image" src="https://user-images.githubusercontent.com/749175/258733617-ba1f0276-45fa-4495-97cc-420257cdc4e5.png">](https://jarv.github.io/one-post-a-year/)
 
 If so, then this might be the perfect theme for you!
 
@@ -34,7 +31,9 @@ Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/sw
 <table>
 <tr><td>⬜️ Light</td><td><img width="600" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/b6fd30ae-b35a-40fe-8621-1a9c52b2a458"></td></tr>
 <tr><td>⬛️ Dark</td><td><img width="600" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/9016c2c3-778c-4ee5-85d4-98e65775017c"></td></tr>
+<tr><td>📱Mobile</td><td><img width="300" alt="image" src="https://github.com/jarv/one-post-a-year/assets/749175/a8fa82b5-0bb4-4274-ac62-e6b0fecad987"></td></tr>
 </table>
+
 
 ## Documentation
 
