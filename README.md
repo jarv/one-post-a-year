@@ -2,7 +2,7 @@
 
 The one-post-a-year theme is a lightweight theme for [Hugo](https://gohugo.io), built with simplicity and speed in mind.
 
-**These theme is feature complete!** If you want to add any features to it, please fork. 
+**These theme is feature complete!** If you want to add any features to it, please fork.
 
 - Looking for a similar lightweight theme that is more actively maintained? Check out [hugo-bearblog](https://github.com/janraasch/hugo-bearblog/tree/master).
 - Looking for a full-featured Hugo theme that has everything? Check out [congo](https://github.com/jpanther/congo).
@@ -48,5 +48,19 @@ git submodule add https://github.com/jarv/one-post-a-year.git themes/one-post-a-
 echo "theme = 'one-post-a-year'" >> hugo.toml
 hugo server
 ```
---- 
+---
 Why? I use this for my own site [jarv.org](https://jarv.org) which sometimes occasionally has more than one update in a year.
+
+### Code Highlighting
+
+This theme includes a light and dark style for code highlighting.
+To use it, add the following configuration to your `hugo.toml`.
+
+```
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.highlight]
+    noClasses = false
+    # https://xyproto.github.io/splash/docs/longer/all.html
+    # Classes included in this theme for the 'github' and 'solarized-dark' styles
+```

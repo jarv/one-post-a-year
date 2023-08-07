@@ -5,25 +5,14 @@ baseURL = 'https://jarv.github.io/one-post-a-year'
 description = ""
 
 pygmentsCodeFences = true
-
 [markup.goldmark.renderer]
   unsafe = "true"
-
 [markup]
   defaultMarkdownHandler = 'goldmark'
   [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = true
-    hl_Lines = ''
-    hl_inline = false
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
     noClasses = false
-    noHl = false
     # https://xyproto.github.io/splash/docs/longer/all.html
-    # style = 'github'
-    # style = 'solarized-dark'
-    tabWidth = 4
+    # Classes included in this theme for the following two styles:
+      # style = 'github'
+      # style = 'solarized-dark'
+    tabWidth = 2

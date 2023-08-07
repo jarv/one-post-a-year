@@ -186,11 +186,10 @@ main article aside section#tags a {
 
 
 main article > pre {
-  background-color: #e1e1e1;
+  background-color: white;
   overflow-x: auto;
   padding: .8em;
   font-size: .9em;
-  box-shadow: 0 -1px 0 #bbb inset;
 }
 
 @media only screen and (width <= 800px) {
@@ -282,10 +281,13 @@ blockquote::after {
     color: #8cc2dd;
   }
 
+  main article > pre {
+    background-color: #002b36;
+  }
+
   /* inline code pre-formatted text */
   p > code {
     background-color: #002b36;
-    color: #93a1a1;
   }
 
   /* header */
