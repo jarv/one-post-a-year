@@ -44,8 +44,6 @@ git submodule add https://github.com/jarv/one-post-a-year.git themes/one-post-a-
 echo "theme = 'one-post-a-year'" >> hugo.toml
 hugo server
 ```
----
-Why? I use this for my own site [jarv.org](https://jarv.org) which sometimes occasionally has more than one update in a year.
 
 ### Code Highlighting
 
@@ -60,3 +58,7 @@ To use it, add the following configuration to your `hugo.toml`.
     # https://xyproto.github.io/splash/docs/longer/all.html
     # Classes included in this theme for the 'github' and 'solarized-dark' styles
 ```
+
+---
+Why? I use this for my own site [jarv.org](https://jarv.org) which sometimes occasionally has more than one update in a year.
+
