@@ -13,13 +13,13 @@ If so, then this might be the perfect theme for you!
 So you might ask, what makes this theme so special?
 
 - Some themes have summaries on the main page, you probably don't have time to write a long post anyway so there is none of that, just the links.
-- Like summaries, most themes have some sort of pagination but that isn't necessary here
+- Like article summaries, most Hugo themes have pagination for articles. With only one post per year it is pretty unlikely that it will ever be necessary so there is no pagination.
 - Limited use of dates next to articles because it's probably not something you want to highlight.
 - Only uses semantic html tags, so yeah, it is pretty modern.
 - Maybe you like social media icons? Nothing like that here, so if you like that stuff this is probably not the theme for you.
 - Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
-- Light and Dark theme
-- RSS feed shows the full article
+- Light and Dark theme.
+- RSS feed shows the full article.
 
 Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/swyx/100-bytes-of-css-to-look-great-everywhere-19pd)
 
