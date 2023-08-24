@@ -2,9 +2,11 @@ languageCode = "en-us"
 title = "My tech blog"
 theme = "one-post-a-year"
 baseURL = 'https://jarv.github.io/one-post-a-year'
-description = ""
-
 pygmentsCodeFences = true
+
+[params]
+  description = "my infrequently updated tech blog"
+
 [markup.goldmark.renderer]
   unsafe = "true"
 [markup]
