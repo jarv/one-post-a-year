@@ -59,6 +59,13 @@ To use it, add the following configuration to your `hugo.toml`.
     # Classes included in this theme for the 'github' and 'solarized-dark' styles
 ```
 
+### Head and Footer
+
+Allows for inserting additional code directly into the `<head>` and `<footer>` sections of the template.
+These can be useful for providing scripts or other logic that is very likely not configurable as part of this very simple theme.
+
+Create either `layouts/partials/extend-head.html` or `layouts/partials/extend-footer.html` and these will automatically be included in your website build.
+Both partials are injected as the last items in `<head>` and `<footer>`.
+
 ---
 Why? I use this for my own site [jarv.org](https://jarv.org) which sometimes occasionally has more than one update in a year.
-

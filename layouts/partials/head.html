@@ -1,15 +1,21 @@
-<title>{{ .Site.Title }}</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ .Site.Params.Description | default "The HTML5 Herald" }}">
-<meta name="author" content="{{ .Params.Author | default .Site.Author.name }}">
-{{ with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-{{ end -}}
-<style>
-  {{ partial "chromastyles.github.css" . | safeCSS }}
-  @media (prefers-color-scheme: dark) {
-    {{ partial "chromastyles.solarized-dark.css" . | safeCSS }}
-  }
-</style>
-<style>{{ partial "style.css" . | safeCSS }}</style>
+<head>
+  <title>{{ .Site.Title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Site.Params.Description | default "The HTML5 Herald" }}">
+  <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}">
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+  <style>
+    {{ partial "chromastyles.github.css" . | safeCSS }}
+    @media (prefers-color-scheme: dark) {
+      {{ partial "chromastyles.solarized-dark.css" . | safeCSS }}
+    }
+  </style>
+  <style>{{ partial "style.css" . | safeCSS }}</style>
+  {{/* Extend head - eg. for custom analytics scripts, etc. */}}
+  {{ if templates.Exists "partials/extend-head.html" }}
+    {{ partial "extend-head.html" .Site }}
+  {{ end }}
+</head>
