@@ -1,6 +1,8 @@
 <footer>
   {{/* Extend footer - eg. for extra scripts, etc. */}}
   {{ if templates.Exists "partials/extend-footer.html" }}
+  {{ if .Params.showfooter | default true }}
     {{ partial "extend-footer.html" . }}
+  {{ end }}
   {{ end }}
 </footer>

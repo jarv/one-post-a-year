@@ -89,6 +89,8 @@ header {
 
 footer {
   color: gray;
+  text-align: center;
+  font-size: 1em;
 }
 
 header a {
