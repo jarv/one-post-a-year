@@ -20,7 +20,7 @@ So you might ask, what makes this theme so special?
 - Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
 - Light and Dark theme.
 - RSS feed shows the full article.
-- 🆕 Allows you to customize header and footer, now ready for enterprise!
+- 🆕 Allows you to customize the `<head>` and add a footer to your articles, so it's now ready for enterprise!
 
 Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/swyx/100-bytes-of-css-to-look-great-everywhere-19pd)
 
