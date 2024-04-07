@@ -59,7 +59,7 @@ table td:first-child {
 <div class="text">
   This is where I put a collection of random thoughts and ideas that come from my spare time (which I don't have much of these days).
 
-  If you like the content here, you can receive notifications for occasional updates by subscribing to the site's [RSS feed]("/index.xml").
+  If you like the content here, you can receive notifications for occasional updates by subscribing to the site's [RSS feed](../index.xml").
 </div>
 </section>
 

@@ -10,12 +10,12 @@ Are you starting a tech blog or already have one that has posts like this?
 
 If so, then this might be the perfect theme for you!
 
-So you might ask, what makes this theme so special?
+You might ask, what makes this theme so special?
 
 - Some themes have summaries on the main page, you probably don't have time to write a long post anyway so there is none of that, just the links.
-- Like article summaries, most Hugo themes have pagination for articles. With only one post per year it is pretty unlikely that it will ever be necessary so there is no pagination.
+- Like article summaries, most Hugo themes have pagination for articles. With only one post per year it's pretty unlikely that it will ever be necessary so there is no pagination.
 - Limited use of dates next to articles because it's probably not something you want to highlight.
-- Only uses semantic html tags, so yeah, it is pretty modern.
+- Only uses semantic html tags, so yeah, it's pretty modern.
 - Maybe you like social media icons? Nothing like that here, so if you like that stuff this is probably not the theme for you.
 - Uses [Atkinson Hyperlegible](https://en.wikipedia.org/wiki/Atkinson_Hyperlegible) as the main font.
 - Light and Dark theme.
@@ -37,11 +37,14 @@ Design inspired by [100-bytes-of-css-to-look-great-everywhere](https://dev.to/sw
 
 ### Quick start using Hugo
 
+The best way to use this theme (or themes in general) is to vendor it, and hack on it yourself so it suites your needs.
+
 ```bash
 hugo new site quickstart
 cd quickstart
 git init
-git submodule add https://github.com/jarv/one-post-a-year.git themes/one-post-a-year
+curl -L -o one-post-a-year.zip https://github.com/jarv/one-post-a-year/archive/refs/heads/main.zip
+unzip one-post-a-year.zip
 echo "theme = 'one-post-a-year'" >> hugo.toml
 hugo server
 ```
@@ -66,7 +69,7 @@ Allows for inserting additional code directly into the `<head>` and `<footer>` s
 These can be useful for providing scripts or other logic that is very likely not configurable as part of this very simple theme.
 
 Create either `layouts/partials/extend-head.html` or `layouts/partials/extend-footer.html` and these will automatically be included in your website build.
-Both partials are injected as the last items in `<head>` and `<footer>`.
+Both partials inject as the last items in `<head>` and `<footer>`.
 
 ---
 Why? I use this for my own site [jarv.org](https://jarv.org) which sometimes occasionally has more than one update in a year.
