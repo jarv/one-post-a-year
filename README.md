@@ -13,7 +13,7 @@ If so, then this might be the perfect theme for you!
 You might ask, what makes this theme so special?
 
 - Some themes have summaries on the main page, you probably don't have time to write a long post anyway so there is none of that, just the links.
-- Like article summaries, most Hugo themes have pagination for articles. With only one post per year it's pretty unlikely that it will ever be necessary so there is no pagination.
+- Like article summaries, most Hugo themes have pagination for articles. With only one post a year it's pretty unlikely that it will ever be necessary so there is no pagination.
 - Limited use of dates next to articles because it's probably not something you want to highlight.
 - Only uses semantic html tags, so yeah, it's pretty modern.
 - Maybe you like social media icons? Nothing like that here, so if you like that stuff this is probably not the theme for you.
