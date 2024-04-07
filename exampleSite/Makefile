@@ -1,2 +1,2 @@
 serve:
-	hugo server --theme ../.. -D
+	hugo server -D -F --theme ../..

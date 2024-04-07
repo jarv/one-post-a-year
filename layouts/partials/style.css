@@ -11,12 +11,6 @@
   font-display: block;
 }
 
-div.goat {
-  font-size: 14px;
-  font-family: monospace;
-  letter-spacing:5px;
-}
-
 h1,h2,h3,h4,h5,h6 {
   margin: .5em 0 .2em
 }
@@ -24,6 +18,8 @@ h1,h2,h3,h4,h5,h6 {
 main h1 {
   font-weight: bold;
   border-bottom: 1px solid black;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 html {
@@ -76,6 +72,15 @@ section#list ul {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+
+
+section#list ul li {
+  padding: 0.25rem;
+}
+
+section#list ul li {
+  border-bottom: 1px solid #ededf0;
 }
 
 /* header */
@@ -204,7 +209,7 @@ main article > pre {
 
 @media only screen and (width <= 800px) {
   main {
-    margin: 0 .5em;
+    margin: 0;
   }
 
   main article aside {
@@ -272,10 +277,30 @@ blockquote::after {
   }
 }
 
+/* Styles to toggle elements for dark/light mode */
+.light {
+    display: block;
+}
+
+.dark {
+    display: none;
+}
+
 @media (prefers-color-scheme: dark) {
+  .light {
+      display: none;
+  }
+  .dark {
+      display: block;
+  }
+
   html {
     background-color: #333;
     color: #ddd;
+  }
+
+  section#list ul li {
+    border-bottom: 1px solid black;
   }
 
   h1,
